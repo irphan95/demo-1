@@ -6,3 +6,4 @@ RUN javac HelloWorld.java
 #COPY --from=build HelloWorld.class .
 #CMD java HelloWorld
 CMD java HelloWorld
+hello
